@@ -1,0 +1,65 @@
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1REM = 10px */
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+body {
+  font-family: 'Raleway', sans-serif;  
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+
+/* Globales */
+h1,h2,h3 {
+  font-family: 'Playfair Display', serif;
+  margin: 0 0 5rem 0;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 4rem;
+}
+h3 {
+  font-size: 3rem;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.contenedor {
+  max-width: 100rem;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 3rem;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1 {
+    color: #f5a489;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+}
+.titulo-cuento {
+    color: #ef8184;
+}
+.contenedor-principal {
+    background: linear-gradient(
+        217deg,
+        rgba(255, 0, 0, 0.8),
+        rgba(255, 0, 0, 0) 70.71%
+      ), linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+      linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+}
+p {
+    color: #a76378;
+}
